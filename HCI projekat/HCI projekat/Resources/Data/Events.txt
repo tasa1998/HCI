@@ -1,0 +1,47 @@
+[
+  {
+    "Mark": "Tasa",
+    "Name": "Tasa",
+    "Type": "Film",
+    "Description": "Tasa",
+    "Attendance": "5000-10000",
+    "Icon": "C:\\Users\\Nastasja\\Desktop\\Hci\\HCI projekat\\HCI projekat\\Images\\R12b12cc186cec1c0caedcbbb3f3122a9.png",
+    "Date": "2021-05-19T00:00:00",
+    "Humanitarian": true,
+    "Price": 3000,
+    "Country": "Serbia",
+    "City": "Novi Sad",
+    "x": 546.40000000000009,
+    "y": 189.60000000000002
+  },
+  {
+    "Mark": "Gojko",
+    "Name": "Marija",
+    "Type": "Film",
+    "Description": "Nastasja",
+    "Attendance": "5000-10000",
+    "Icon": "file:///C:/Users/Nastasja/Desktop/Hci/HCI projekat/HCI projekat/Images/R5817f5719e45b7bd70f3718779e4cd0f.png",
+    "Date": "2021-05-30T00:00:00",
+    "Humanitarian": true,
+    "Price": 3000,
+    "Country": "Bulgaria",
+    "City": "Sofia",
+    "x": 437.6,
+    "y": 125.60000000000001
+  },
+  {
+    "Mark": "Beerfest",
+    "Name": "Lalalla",
+    "Type": "Other",
+    "Description": "Lalalla",
+    "Attendance": "5000-10000",
+    "Icon": "C:\\Users\\Nastasja\\Desktop\\Hci\\HCI projekat\\HCI projekat\\Images\\R12b12cc186cec1c0caedcbbb3f3122a9.png",
+    "Date": "2021-04-15T00:00:00",
+    "Humanitarian": true,
+    "Price": 123,
+    "Country": "Serbia",
+    "City": "Novi Sad",
+    "x": 268.8,
+    "y": 51.2
+  }
+]

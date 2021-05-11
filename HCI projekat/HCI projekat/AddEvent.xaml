@@ -1,0 +1,129 @@
+﻿<Window x:Class="HCI_projekat.AddEvent"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:local="clr-namespace:HCI_projekat"
+        mc:Ignorable="d"
+        Title="AddEvent" Height="550" Width="800">
+    <Window.Resources>
+        <Style TargetType="DatePicker">
+            <Setter Property="Background" Value="#FF116FA4"/>
+            <Setter Property="FirstDayOfWeek" Value="Monday"/>
+            <Setter Property="Foreground" Value="#FF494848"/>
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="BorderBrush" Value="#FF116FA4"/>
+            <Setter Property="OpacityMask" Value="#FF116FA4"/>
+        </Style>
+
+        <Style TargetType="ComboBox">
+            <Setter Property="BorderThickness" Value="2"/>
+            <Setter Property="BorderBrush" Value="#FF116FA4"/>
+            <Setter Property="OpacityMask" Value="#FF116FA4"/>
+        </Style>
+
+    </Window.Resources>
+    <Grid>
+        <Border Background="#FF116FA4" HorizontalAlignment="Center" MinWidth="800" MaxWidth="800" Margin="-4,0,-4,460" Width="800" Height="60">
+            <Label Content="Add event" Foreground="White" FontSize="25" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Border>
+        <StackPanel Orientation="Horizontal">
+            <StackPanel Margin="0,70,0,10" Width="200">
+                <Label Content="Mark:" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="#FF494848" FontSize="13.5" Width="130"
+                           Margin="50,25,0,20" Height="30"/>
+                <Label Content="Name:" HorizontalAlignment="Left" VerticalAlignment="Center" Width="99" Foreground="#FF494848" FontSize="13.5" 
+                           Margin="50,5,0,0" Height="30"/>
+                <Label Content="Description:" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="#FF494848" FontSize="13.5" Width="99" 
+                           Margin="50,25,0,0" Height="30"/>
+                <Label Content="Type:" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="#FF494848" FontSize="13.5" Width="99"
+                           Margin="50,25,0,0" Height="30"/>
+                <Label Content="Attendance:" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="#FF494848" FontSize="13.5" Width="130"
+                           Margin="50,25,0,0" Height="30"/>
+                <Label Content="Label:" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="#FF494848" FontSize="13.5" Width="130"
+                           Margin="50,25,0,0" Height="30"/>
+            </StackPanel>
+            <StackPanel Margin="0,70,0,10" Width="205">
+                <TextBox TextAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Center" Height="30" TextWrapping="Wrap" 
+                               Margin="0,25,0,0" Foreground="#FF494848" x:Name="mark" Background="White" Width="140" MaxLines="1" SelectionBrush="#FF116FA4">
+                </TextBox>
+                <TextBox TextAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Center" Height="30" TextWrapping="Wrap" 
+                               Margin="0,25,0,0" Foreground="#FF494848" x:Name="name" Background="White" Width="140" MaxLines="1" SelectionBrush="#FF116FA4">
+                </TextBox>
+                <TextBox TextAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Center" Height="30" TextWrapping="Wrap" 
+                               Margin="0,25,0,0" Foreground="#FF494848" x:Name="description" Background="White" Width="140" MaxLines="1" SelectionBrush="#FF116FA4">
+                </TextBox>
+                <ComboBox HorizontalAlignment="Left" VerticalAlignment="Center" Height="30"  x:Name="typeCB"
+                               Margin="0,25,0,0" Foreground="#FF494848" Background="White" Width="140" Keyboard.KeyDown="typeCB_KeyDown">
+                    <ComboBoxItem>Music</ComboBoxItem>
+                    <ComboBoxItem>Film</ComboBoxItem>
+                    <ComboBoxItem>Sport</ComboBoxItem>
+                    <ComboBoxItem>Political</ComboBoxItem>
+                    <ComboBoxItem>Other</ComboBoxItem>
+                </ComboBox>
+                <ComboBox HorizontalAlignment="Left" VerticalAlignment="Center" Height="30"  x:Name="attendanceCB"
+                               Margin="0,25,0,0" Foreground="#FF494848" Background="White" Width="140" Keyboard.KeyDown="attendanceCB_KeyDown">
+                    <ComboBoxItem>to 1000</ComboBoxItem>
+                    <ComboBoxItem>1000-5000</ComboBoxItem>
+                    <ComboBoxItem>5000-10000</ComboBoxItem>
+                    <ComboBoxItem>over 10000</ComboBoxItem>
+                </ComboBox>
+                <Button x:Name="chooseLabels"
+                        materialDesign:ButtonAssist.CornerRadius="10" BorderThickness="2" BorderBrush="#FF116FA4"
+                            Background="#FF116FA4" Foreground="White" Margin="0,25,0,0" Content="Choose label" HorizontalAlignment="Left" Height="27" VerticalAlignment="Top" Width="120" Click="chooseLabels_Click"/>
+
+
+
+
+
+            </StackPanel>
+            <StackPanel Margin="0,91,0,10" Width="171">
+                <Label Content="Date:" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="#FF494848" FontSize="13.5" Width="99" 
+                            Margin="30,5,0,0" Height="30"/>
+
+                <Label Content="Icon:" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="#FF494848" FontSize="13.5" Width="99" 
+                           Margin="30,20,0,0" Height="30"/>
+                <Label Content="Humanitarian:" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="#FF494848" FontSize="13.5" Width="99" 
+                           Margin="30,25,0,0" Height="30"/>
+                <Label Content="Price:" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="#FF494848" FontSize="13.5" Width="99" 
+                           Margin="30,25,0,0" Height="30"/>
+                <Label Content="Country:" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="#FF494848" FontSize="13.5" Width="99" 
+                           Margin="30,25,0,0" Height="30"/>
+                <Label Content="City:" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="#FF494848" FontSize="13.5" Width="99" 
+                           Margin="30,25,0,0" Height="30"/>
+
+
+            </StackPanel>
+            <StackPanel Margin="0,91,0,10" Width="195">
+
+                <DatePicker x:Name="date" Margin="0,5,55.2,0" Height="30" Keyboard.KeyDown="date_KeyDown"/>
+                <Button x:Name="izaberiIkonicu"
+                        materialDesign:ButtonAssist.CornerRadius="10" BorderThickness="2" BorderBrush="#FF116FA4"
+                            Background="#FF116FA4" Foreground="White" Margin="0,25,0,0" ToolTip="Opcion unos slike manifestacije" Content="Choose icon" HorizontalAlignment="Left" Height="27" VerticalAlignment="Top" Width="120" Click="izaberiIkonicu_Click"/>
+                <Border BorderBrush="White" BorderThickness="1" HorizontalAlignment="Left" Height="64" Margin="130,-40,0,0" VerticalAlignment="Top" Width="64">
+                    <Image x:Name="ikonica" ToolTip="Opcion unos slike manifestacije" HorizontalAlignment="Right" Margin="-0.8" Width="64"/>
+                </Border>
+                <CheckBox Name="humanitarian" Margin="0,5,55.2,0"/>
+                <TextBox TextAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Center" Height="30" TextWrapping="Wrap" 
+                               Margin="0,35,0,0" Foreground="#FF494848" x:Name="price" Background="White" Width="140" MaxLines="1" SelectionBrush="#FF116FA4" PreviewTextInput="price_PreviewTextInput">
+                </TextBox>
+                <TextBox TextAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Center" Height="30" TextWrapping="Wrap" 
+                               Margin="0,25,0,0" Foreground="#FF494848" x:Name="country" Background="White" Width="140" MaxLines="1" SelectionBrush="#FF116FA4">
+                </TextBox>
+                <TextBox TextAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Center" Height="30" TextWrapping="Wrap" 
+                               Margin="0,25,0,0" Foreground="#FF494848" x:Name="city" Background="White" Width="140" MaxLines="1" SelectionBrush="#FF116FA4">
+                </TextBox>
+                <Button Width="80" Height="30" 
+                            materialDesign:ButtonAssist.CornerRadius="10" BorderThickness="2" BorderBrush="#FF116FA4"
+                            Background="#FF116FA4" Foreground="White" ToolTip="Save" Content="Save"
+                            HorizontalAlignment="Center" VerticalAlignment="Center" Margin="-110,30,0,0" FontSize="13.5" Click="Button_Click" IsDefault="True"/>
+
+                <Button Width="80" Height="30" 
+                            materialDesign:ButtonAssist.CornerRadius="10" BorderThickness="2" BorderBrush="#FF116FA4"
+                            Background="#FF116FA4" Foreground="White" ToolTip="Cancel" Content="Cancel"
+                            HorizontalAlignment="Center" VerticalAlignment="Center" Margin="100,-30,0,0" FontSize="13.5" Click="Button_Click_1"/>
+
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

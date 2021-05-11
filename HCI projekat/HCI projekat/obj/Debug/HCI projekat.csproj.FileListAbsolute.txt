@@ -1,0 +1,60 @@
+C:\Users\Nastasja\Desktop\Hci\HCI projekat\HCI projekat\bin\Debug\HCI projekat.exe.config
+C:\Users\Nastasja\Desktop\Hci\HCI projekat\HCI projekat\bin\Debug\HCI projekat.exe
+C:\Users\Nastasja\Desktop\Hci\HCI projekat\HCI projekat\bin\Debug\HCI projekat.pdb
+C:\Users\Nastasja\Desktop\Hci\HCI projekat\HCI projekat\obj\Debug\HCI projekat.csprojAssemblyReference.cache
+C:\Users\Nastasja\Desktop\Hci\HCI projekat\HCI projekat\obj\Debug\MainWindow.g.cs
+C:\Users\Nastasja\Desktop\Hci\HCI projekat\HCI projekat\obj\Debug\App.g.cs
+C:\Users\Nastasja\Desktop\Hci\HCI projekat\HCI projekat\obj\Debug\HCI projekat_MarkupCompile.cache
+C:\Users\Nastasja\Desktop\Hci\HCI projekat\HCI projekat\obj\Debug\HCI projekat_MarkupCompile.lref
+C:\Users\Nastasja\Desktop\Hci\HCI projekat\HCI projekat\obj\Debug\MainWindow.baml
+C:\Users\Nastasja\Desktop\Hci\HCI projekat\HCI projekat\obj\Debug\HCI projekat.g.resources
+C:\Users\Nastasja\Desktop\Hci\HCI projekat\HCI projekat\obj\Debug\HCI_projekat.Properties.Resources.resources
+C:\Users\Nastasja\Desktop\Hci\HCI projekat\HCI projekat\obj\Debug\HCI projekat.csproj.GenerateResource.cache
+C:\Users\Nastasja\Desktop\Hci\HCI projekat\HCI projekat\obj\Debug\HCI projekat.csproj.CoreCompileInputs.cache
+C:\Users\Nastasja\Desktop\Hci\HCI projekat\HCI projekat\obj\Debug\HCI projekat.exe
+C:\Users\Nastasja\Desktop\Hci\HCI projekat\HCI projekat\obj\Debug\HCI projekat.pdb
+C:\Users\Nastasja\Desktop\Hci\HCI projekat\HCI projekat\obj\Debug\AddEvent.g.cs
+C:\Users\Nastasja\Desktop\Hci\HCI projekat\HCI projekat\bin\Debug\MaterialDesignColors.dll
+C:\Users\Nastasja\Desktop\Hci\HCI projekat\HCI projekat\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Nastasja\Desktop\Hci\HCI projekat\HCI projekat\bin\Debug\MaterialDesignColors.pdb
+C:\Users\Nastasja\Desktop\Hci\HCI projekat\HCI projekat\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Nastasja\Desktop\Hci\HCI projekat\HCI projekat\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Nastasja\Desktop\Hci\HCI projekat\HCI projekat\obj\Debug\AddEvent.baml
+C:\Users\Nastasja\Desktop\Hci\HCI projekat\HCI projekat\obj\Debug\HCI projekat.csproj.CopyComplete
+C:\Users\Nastasja\Desktop\Hci\HCI projekat\HCI projekat\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Nastasja\Desktop\Hci\HCI projekat\HCI projekat\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Nastasja\Desktop\Hci\HCI projekat\HCI projekat\obj\Debug\AllEvents.g.cs
+C:\Users\Nastasja\Desktop\Hci\HCI projekat\HCI projekat\obj\Debug\AllEvents.baml
+C:\Users\Nastasja\Desktop\Hci\HCI projekat\HCI projekat\obj\Debug\AlreadyExist.g.cs
+C:\Users\Nastasja\Desktop\Hci\HCI projekat\HCI projekat\obj\Debug\AlreadyExist.baml
+C:\Users\Nastasja\Desktop\Hci\HCI projekat\HCI projekat\obj\Debug\SuccessfullyAdded.g.cs
+C:\Users\Nastasja\Desktop\Hci\HCI projekat\HCI projekat\obj\Debug\SuccessfullyAdded.baml
+C:\Users\Nastasja\Desktop\Hci\HCI projekat\HCI projekat\obj\Debug\EditEvent.g.cs
+C:\Users\Nastasja\Desktop\Hci\HCI projekat\HCI projekat\obj\Debug\EditEvent.baml
+C:\Users\Nastasja\Desktop\Hci\HCI projekat\HCI projekat\obj\Debug\Map.g.cs
+C:\Users\Nastasja\Desktop\Hci\HCI projekat\HCI projekat\obj\Debug\Map.baml
+C:\Users\Nastasja\Desktop\Hci\HCI projekat\HCI projekat\obj\Debug\AddLabel.g.cs
+C:\Users\Nastasja\Desktop\Hci\HCI projekat\HCI projekat\obj\Debug\AddLabel.baml
+C:\Users\Nastasja\Desktop\Hci\HCI projekat\HCI projekat\bin\Debug\Xceed.Wpf.AvalonDock.dll
+C:\Users\Nastasja\Desktop\Hci\HCI projekat\HCI projekat\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\Nastasja\Desktop\Hci\HCI projekat\HCI projekat\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\Nastasja\Desktop\Hci\HCI projekat\HCI projekat\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\Nastasja\Desktop\Hci\HCI projekat\HCI projekat\bin\Debug\Xceed.Wpf.Toolkit.dll
+C:\Users\Nastasja\Desktop\Hci\HCI projekat\HCI projekat\bin\Debug\cs-CZ\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Nastasja\Desktop\Hci\HCI projekat\HCI projekat\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Nastasja\Desktop\Hci\HCI projekat\HCI projekat\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Nastasja\Desktop\Hci\HCI projekat\HCI projekat\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Nastasja\Desktop\Hci\HCI projekat\HCI projekat\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Nastasja\Desktop\Hci\HCI projekat\HCI projekat\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Nastasja\Desktop\Hci\HCI projekat\HCI projekat\bin\Debug\ja-JP\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Nastasja\Desktop\Hci\HCI projekat\HCI projekat\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Nastasja\Desktop\Hci\HCI projekat\HCI projekat\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Nastasja\Desktop\Hci\HCI projekat\HCI projekat\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Nastasja\Desktop\Hci\HCI projekat\HCI projekat\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Nastasja\Desktop\Hci\HCI projekat\HCI projekat\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Nastasja\Desktop\Hci\HCI projekat\HCI projekat\obj\Debug\AllLabels.g.cs
+C:\Users\Nastasja\Desktop\Hci\HCI projekat\HCI projekat\obj\Debug\AllLabels.baml
+C:\Users\Nastasja\Desktop\Hci\HCI projekat\HCI projekat\obj\Debug\EditLabel.g.cs
+C:\Users\Nastasja\Desktop\Hci\HCI projekat\HCI projekat\obj\Debug\EditLabel.baml
+C:\Users\Nastasja\Desktop\Hci\HCI projekat\HCI projekat\obj\Debug\ChooseLabel.g.cs
+C:\Users\Nastasja\Desktop\Hci\HCI projekat\HCI projekat\obj\Debug\ChooseLabel.baml
