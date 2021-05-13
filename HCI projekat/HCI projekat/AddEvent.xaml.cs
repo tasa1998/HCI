@@ -24,6 +24,13 @@ namespace HCI_projekat
             InitializeComponent();
             eventt = new Event();
             WindowStartupLocation = System.Windows.WindowStartupLocation.CenterScreen;
+            List<Model.Type> types = App.TypeController.GetTypes();
+            List<String> names = new List<String>();
+            foreach(Model.Type type in types)
+            {
+                names.Add(type.Name);
+            }
+            typeCB.ItemsSource = names;
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -42,16 +49,20 @@ namespace HCI_projekat
                     }
                 }
             }
-            
+
+            String tip = (string)typeCB.SelectedItem;
+            List<Model.Type> types = App.TypeController.GetTypes();
+            foreach(Model.Type type in types)
+            {
+                if (type.Name == tip)
+                    eventt.Type = type.Name;
+            }
 
             eventt.Mark = mark.Text;
             eventt.Name = name.Text;
             eventt.Description = description.Text;
-            ComboBoxItem typeItem = (ComboBoxItem)typeCB.SelectedItem;
-            string value = typeItem.Content.ToString();
             ComboBoxItem typeItem1 = (ComboBoxItem)attendanceCB.SelectedItem;
             string value1 = typeItem1.Content.ToString();
-            eventt.Type = value;
             eventt.Attendance = value1;
 
             
@@ -69,28 +80,16 @@ namespace HCI_projekat
                 eventt.Humanitarian = false;
             eventt.Country = country.Text;
             eventt.City = city.Text;
+            eventt.x = -1;
+            eventt.y = -1;
 
             if (ikonica.Source == null)
             {
-                if (typeCB.SelectedItem.Equals("Sport"))
+                foreach (Model.Type type in types)
                 {
-                    eventt.Icon = System.IO.Path.GetFullPath(@"..\..\") + "Images\\R35a560436de1298fa8737e81355984bb.png";
-                }
-                else if (typeCB.SelectedItem.Equals("Music"))
-                {
-                    eventt.Icon = System.IO.Path.GetFullPath(@"..\..\") + "Images\\iconlab-itunes-itunes-glow-music-icon-png-clip-art.png";
-                }
-                else if (typeCB.SelectedItem.Equals("Political"))
-                {
-                    eventt.Icon = System.IO.Path.GetFullPath(@"..\..\") + "Images\\neutral-p005-512.png";
-                }
-                else if (typeCB.SelectedItem.Equals("Film"))
-                {
-                    eventt.Icon = System.IO.Path.GetFullPath(@"..\..\") + "Images\\R5817f5719e45b7bd70f3718779e4cd0f.png";
-                }
-                else
-                {
-                    eventt.Icon = System.IO.Path.GetFullPath(@"..\..\") + "Images\\R12b12cc186cec1c0caedcbbb3f3122a9.png";
+                    if (type.Name == tip) {
+                        eventt.Icon = type.Icon;
+                    }
                 }
             }
 

@@ -118,3 +118,9 @@ C:\Users\Nastasja\Desktop\HCI github\HCI\HCI projekat\HCI projekat\obj\Debug\HCI
 C:\Users\Nastasja\Desktop\HCI github\HCI\HCI projekat\HCI projekat\obj\Debug\HCI projekat.csproj.CopyComplete
 C:\Users\Nastasja\Desktop\HCI github\HCI\HCI projekat\HCI projekat\obj\Debug\HCI projekat.exe
 C:\Users\Nastasja\Desktop\HCI github\HCI\HCI projekat\HCI projekat\obj\Debug\HCI projekat.pdb
+C:\Users\Nastasja\Desktop\HCI github\HCI\HCI projekat\HCI projekat\obj\Debug\AddType.g.cs
+C:\Users\Nastasja\Desktop\HCI github\HCI\HCI projekat\HCI projekat\obj\Debug\AddType.baml
+C:\Users\Nastasja\Desktop\HCI github\HCI\HCI projekat\HCI projekat\obj\Debug\EditType.g.cs
+C:\Users\Nastasja\Desktop\HCI github\HCI\HCI projekat\HCI projekat\obj\Debug\EditType.baml
+C:\Users\Nastasja\Desktop\HCI github\HCI\HCI projekat\HCI projekat\obj\Debug\AllTypes.g.cs
+C:\Users\Nastasja\Desktop\HCI github\HCI\HCI projekat\HCI projekat\obj\Debug\AllTypes.baml

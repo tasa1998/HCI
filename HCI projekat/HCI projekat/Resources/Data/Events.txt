@@ -1,55 +1,66 @@
 [
   {
-    "Mark": "Beerfest",
-    "Name": "Beerfest",
-    "Type": "Other",
-    "Description": "Beerfest",
-    "Attendance": "over 10000",
-    "Icon": "file:///C:/Users/Nastasja/Desktop/Hci/HCI projekat/HCI projekat/Images/R12b12cc186cec1c0caedcbbb3f3122a9.png",
+    "Mark": "Tasa",
+    "Name": "Tasa",
+    "Type": "Music",
+    "Description": "Tasa",
+    "Attendance": "5000-10000",
+    "Icon": "file:///C:/Users/Nastasja/Desktop/Hci/HCI projekat/HCI projekat/Images/iconlab-itunes-itunes-glow-music-icon-png-clip-art.png",
     "Date": "2021-05-27T00:00:00",
     "Humanitarian": true,
-    "Price": 1000,
-    "Country": "Serbia",
-    "City": "Novi Sad",
-    "x": 129.6,
-    "y": 172.8,
+    "Price": 123,
+    "Country": "Tasa",
+    "City": "Tasa",
+    "x": 123.19999999999999,
+    "y": 124.0,
     "labels": [
-      {
-        "Mark": "45",
-        "Description": "45",
-        "Colorr": "#FF7CFC00"
-      },
       {
         "Mark": "56",
         "Description": "56",
         "Colorr": "#FF3CB371"
+      },
+      {
+        "Mark": "24",
+        "Description": "55",
+        "Colorr": "#FFB8860B"
       }
     ]
   },
   {
-    "Mark": "123",
-    "Name": "123",
-    "Type": "Sport",
-    "Description": "123",
-    "Attendance": "1000-5000",
-    "Icon": "C:\\Users\\Nastasja\\Desktop\\HCI github\\HCI\\HCI projekat\\HCI projekat\\Images\\R12b12cc186cec1c0caedcbbb3f3122a9.png",
-    "Date": "2021-05-27T00:00:00",
+    "Mark": "Proba",
+    "Name": "Proba",
+    "Type": "Political",
+    "Description": "Proba",
+    "Attendance": "to 1000",
+    "Icon": "file:///C:/Users/Nastasja/Desktop/Hci/HCI projekat/HCI projekat/Images/neutral-p005-512.png",
+    "Date": "2021-05-04T00:00:00",
     "Humanitarian": true,
     "Price": 123,
-    "Country": "123",
-    "City": "123",
-    "x": 0.0,
-    "y": 0.0,
+    "Country": "Proba",
+    "City": "Proba",
+    "x": 579.2,
+    "y": 82.4,
+    "labels": null
+  },
+  {
+    "Mark": "Probaaaaaaa",
+    "Name": "Probaaaaaaa",
+    "Type": "Political",
+    "Description": "Probaaaaaaa",
+    "Attendance": "5000-10000",
+    "Icon": "file:///C:/Users/Nastasja/Desktop/Hci/HCI projekat/HCI projekat/Images/neutral-p005-512.png",
+    "Date": "2021-05-25T00:00:00",
+    "Humanitarian": true,
+    "Price": 1111111,
+    "Country": "Probaaaaaaa",
+    "City": "Probaaaaaaa",
+    "x": 432.0,
+    "y": 134.4,
     "labels": [
       {
         "Mark": "24",
         "Description": "55",
         "Colorr": "#FFB8860B"
-      },
-      {
-        "Mark": "56",
-        "Description": "56",
-        "Colorr": "#FF3CB371"
       }
     ]
   }

@@ -1,0 +1,29 @@
+﻿<Window x:Class="HCI_projekat.AllTypes"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HCI_projekat"
+        mc:Ignorable="d"
+        Title="EditType" Height="450" Width="800">
+    <Grid>
+        <ListView FontSize="15" x:Name="etiketeGrid"
+                      
+                      BorderThickness="0" Margin="0,0,0.6,60" MouseDoubleClick="etiketeGrid_MouseDoubleClick">
+        <ListView.View>
+            <GridView>
+                <GridViewColumn  Width="180" Header="Mark" DisplayMemberBinding="{Binding Mark}"/>
+                <GridViewColumn  Width="180" Header="Description" DisplayMemberBinding="{Binding Description}"/>
+                <GridViewColumn  Width="180" Header="Name" DisplayMemberBinding="{Binding Name}"/>
+            </GridView>
+        </ListView.View>
+
+    </ListView>
+    <Button Width="80" Height="30" 
+                            BorderThickness="2" BorderBrush="#FF116FA4"
+                            Background="#FF116FA4" Foreground="White" ToolTip="Cancel" Content="Back"
+                            HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,350,0,0" FontSize="13.5" Click="Button_Click" />
+
+
+    </Grid>
+</Window>

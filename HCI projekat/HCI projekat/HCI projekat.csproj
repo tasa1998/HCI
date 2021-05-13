@@ -84,6 +84,9 @@
     <Compile Include="AddLabel.xaml.cs">
       <DependentUpon>AddLabel.xaml</DependentUpon>
     </Compile>
+    <Compile Include="AddType.xaml.cs">
+      <DependentUpon>AddType.xaml</DependentUpon>
+    </Compile>
     <Compile Include="AllEvents.xaml.cs">
       <DependentUpon>AllEvents.xaml</DependentUpon>
     </Compile>
@@ -97,25 +100,37 @@
       <DependentUpon>ChooseLabel.xaml</DependentUpon>
     </Compile>
     <Compile Include="Controller\ILabelController.cs" />
+    <Compile Include="Controller\ITypeController.cs" />
     <Compile Include="Controller\LabelController.cs" />
+    <Compile Include="Controller\TypeController.cs" />
     <Compile Include="EditEvent.xaml.cs">
       <DependentUpon>EditEvent.xaml</DependentUpon>
     </Compile>
     <Compile Include="EditLabel.xaml.cs">
       <DependentUpon>EditLabel.xaml</DependentUpon>
     </Compile>
+    <Compile Include="AllTypes.xaml.cs">
+      <DependentUpon>AllTypes.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="EditType.xaml.cs">
+      <DependentUpon>EditType.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Map.xaml.cs">
       <DependentUpon>Map.xaml</DependentUpon>
     </Compile>
     <Compile Include="Model\Label.cs" />
+    <Compile Include="Model\Type.cs" />
     <Compile Include="Repository\EventRepository.cs" />
     <Compile Include="Repository\IRepository.cs" />
     <Compile Include="Repository\LabelRepository.cs" />
     <Compile Include="Repository\Repository.cs" />
+    <Compile Include="Repository\TypeRepository.cs" />
     <Compile Include="Service\EventService.cs" />
     <Compile Include="Service\IEventService.cs" />
     <Compile Include="Service\ILabelService.cs" />
+    <Compile Include="Service\ITypeService.cs" />
     <Compile Include="Service\LabelService.cs" />
+    <Compile Include="Service\TypeService.cs" />
     <Compile Include="SuccessfullyAdded.xaml.cs">
       <DependentUpon>SuccessfullyAdded.xaml</DependentUpon>
     </Compile>
@@ -124,6 +139,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="AddLabel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AddType.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -148,6 +167,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="EditLabel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AllTypes.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="EditType.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -196,6 +223,7 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="Controller\.editorconfig" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

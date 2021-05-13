@@ -60,5 +60,20 @@ namespace HCI_projekat
             win2.Show();
             this.Close();
         }
+
+        private void Button_Click_5(object sender, RoutedEventArgs e)
+        {
+            var win2 = new AddType();
+            win2.Show();
+            this.Close();
+        }
+
+        private void Button_Click_6(object sender, RoutedEventArgs e)
+        {
+            var win2 = new AllTypes();
+            win2.Show();
+            this.Close();
+
+        }
     }
 }

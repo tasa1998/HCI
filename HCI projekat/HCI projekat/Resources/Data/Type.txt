@@ -1,0 +1,26 @@
+[
+  {
+    "Mark": "Political",
+    "Name": "Political",
+    "Description": "Political",
+    "Icon": "file:///C:/Users/Nastasja/Desktop/Hci/HCI projekat/HCI projekat/Images/neutral-p005-512.png"
+  },
+  {
+    "Mark": "Sport",
+    "Name": "Sport",
+    "Description": "Sport",
+    "Icon": "file:///C:/Users/Nastasja/Desktop/Hci/HCI projekat/HCI projekat/Images/R35a560436de1298fa8737e81355984bb.png"
+  },
+  {
+    "Mark": "Film",
+    "Name": "Film",
+    "Description": "Film",
+    "Icon": "file:///C:/Users/Nastasja/Desktop/Hci/HCI projekat/HCI projekat/Images/R5817f5719e45b7bd70f3718779e4cd0f.png"
+  },
+  {
+    "Mark": "Music",
+    "Name": "Music",
+    "Description": "Music",
+    "Icon": "file:///C:/Users/Nastasja/Desktop/Hci/HCI projekat/HCI projekat/Images/iconlab-itunes-itunes-glow-music-icon-png-clip-art.png"
+  }
+]

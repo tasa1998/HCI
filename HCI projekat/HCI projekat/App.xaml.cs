@@ -21,13 +21,17 @@ namespace HCI_projekat
         {
             EventRepository eventRepository = new EventRepository();
             LabelRepository labelRepository = new LabelRepository();
+            TypeRepository typeRepository = new TypeRepository();
             var eventService = new EventService(eventRepository);
             var labelService = new LabelService(labelRepository);
+            var typeService = new TypeService(typeRepository);
 
             EventController = new EventController(eventService);
             LabelController = new LabelController(labelService);
+            TypeController = new TypeController(typeService);
         }
         public static IEventController EventController { get; private set; }
         public static ILabelController LabelController { get; private set; }
+        public static ITypeController TypeController { get; private set; }
     }
 }

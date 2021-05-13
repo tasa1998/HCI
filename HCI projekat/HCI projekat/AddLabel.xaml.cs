@@ -47,10 +47,10 @@ namespace HCI_projekat
             
             label1.Mark = oznaka_textBox.Text;
             label1.Description = textBox_Copy1.Text;
-            if(exists == false)
-            {
+
+            if (exists == false)
                 App.LabelController.CreateLabel(label1);
-            }
+
             var win1 = new SuccessfullyAdded();
             win1.Show();
             this.Close();

@@ -61,7 +61,6 @@ namespace HCI_projekat
                 || x.Country.ToLower().Contains(tbx.Text.ToLower()) 
                 || x.City.ToLower().Contains(tbx.Text.ToLower())
                 || x.Price.ToString().ToLower().Contains(tbx.Text.ToLower())
-                || x.Type.ToLower().Contains(tbx.Text.ToLower())
                 || x.Attendance.ToLower().Contains(tbx.Text.ToLower()));
                 dogadjajiGrid.ItemsSource = null;
                 dogadjajiGrid.ItemsSource = filteredList;

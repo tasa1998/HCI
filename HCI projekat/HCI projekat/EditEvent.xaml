@@ -53,11 +53,6 @@
                 </TextBox>
                 <ComboBox HorizontalAlignment="Left" VerticalAlignment="Center" Height="30"  x:Name="typeCB"
                                Margin="0,25,0,0" Foreground="#FF494848" Background="White" Width="140" Keyboard.KeyDown="typeCB_KeyDown">
-                    <ComboBoxItem>Music</ComboBoxItem>
-                    <ComboBoxItem>Film</ComboBoxItem>
-                    <ComboBoxItem>Sport</ComboBoxItem>
-                    <ComboBoxItem>Political</ComboBoxItem>
-                    <ComboBoxItem>Other</ComboBoxItem>
                 </ComboBox>
                 <ComboBox HorizontalAlignment="Left" VerticalAlignment="Center" Height="30"  x:Name="attendanceCB"
                                Margin="0,25,0,0" Foreground="#FF494848" Background="White" Width="140" Keyboard.KeyDown="attendanceCB_KeyDown">

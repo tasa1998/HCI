@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Nastasja\Desktop\Hci\HCI projekat\HCI projekat\obj\Debug\
+C:\Users\Nastasja\Desktop\HCI github\HCI\HCI projekat\HCI projekat\obj\Debug\
 HCI_projekat
 none
 false
 DEBUG;TRACE
-C:\Users\Nastasja\Desktop\Hci\HCI projekat\HCI projekat\App.xaml
-111771186449
+C:\Users\Nastasja\Desktop\HCI github\HCI\HCI projekat\HCI projekat\App.xaml
+14-1318301273
 
-30199044406
-21-1877640015
-AddEvent.xaml;AddLabel.xaml;AllEvents.xaml;AllLabels.xaml;AlreadyExist.xaml;ChooseLabel.xaml;EditEvent.xaml;EditLabel.xaml;MainWindow.xaml;Map.xaml;SuccessfullyAdded.xaml;
+39-1357679579
+21-1508715922
+AddEvent.xaml;AddLabel.xaml;AddType.xaml;AllEvents.xaml;AllLabels.xaml;AlreadyExist.xaml;ChooseLabel.xaml;EditEvent.xaml;EditLabel.xaml;AllTypes.xaml;EditType.xaml;MainWindow.xaml;Map.xaml;SuccessfullyAdded.xaml;
 
 True
 

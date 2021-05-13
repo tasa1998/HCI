@@ -55,11 +55,6 @@
                 </TextBox>
                 <ComboBox HorizontalAlignment="Left" VerticalAlignment="Center" Height="30"  x:Name="typeCB"
                                Margin="0,25,0,0" Foreground="#FF494848" Background="White" Width="140" Keyboard.KeyDown="typeCB_KeyDown">
-                    <ComboBoxItem>Music</ComboBoxItem>
-                    <ComboBoxItem>Film</ComboBoxItem>
-                    <ComboBoxItem>Sport</ComboBoxItem>
-                    <ComboBoxItem>Political</ComboBoxItem>
-                    <ComboBoxItem>Other</ComboBoxItem>
                 </ComboBox>
                 <ComboBox HorizontalAlignment="Left" VerticalAlignment="Center" Height="30"  x:Name="attendanceCB"
                                Margin="0,25,0,0" Foreground="#FF494848" Background="White" Width="140" Keyboard.KeyDown="attendanceCB_KeyDown">
@@ -101,7 +96,7 @@
                         materialDesign:ButtonAssist.CornerRadius="10" BorderThickness="2" BorderBrush="#FF116FA4"
                             Background="#FF116FA4" Foreground="White" Margin="0,25,0,0" ToolTip="Opcion unos slike manifestacije" Content="Choose icon" HorizontalAlignment="Left" Height="27" VerticalAlignment="Top" Width="120" Click="izaberiIkonicu_Click"/>
                 <Border BorderBrush="White" BorderThickness="1" HorizontalAlignment="Left" Height="64" Margin="130,-40,0,0" VerticalAlignment="Top" Width="64">
-                    <Image x:Name="ikonica" ToolTip="Opcion unos slike manifestacije" HorizontalAlignment="Right" Margin="-0.8" Width="64"/>
+                    <Image x:Name="ikonica" HorizontalAlignment="Right" Margin="-0.8" Width="64"/>
                 </Border>
                 <CheckBox Name="humanitarian" Margin="0,5,55.2,0"/>
                 <TextBox TextAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Center" Height="30" TextWrapping="Wrap" 
