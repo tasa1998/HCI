@@ -71,5 +71,16 @@ namespace HCI_projekat
                 dogadjajiGrid.ItemsSource = App.EventController.GetEvents();
             }
         }
+
+        private void dogadjajiGrid_KeyDown(object sender, KeyEventArgs e)
+        {
+            if(e.Key == Key.Enter)
+            {
+                Event eventt = (Event)dogadjajiGrid.SelectedItem;
+                var win2 = new EditEvent(eventt);
+                win2.Show();
+                this.Close();
+            }
+        }
     }
 }

@@ -14,7 +14,7 @@
                  Tag="Pronadji dogadjaj" TextChanged="SearchTextBox_TextChanged"/>
         <ListView FontSize="15" x:Name="dogadjajiGrid"
                       
-                      BorderThickness="0" Margin="0,46,0.6,60" MouseDoubleClick="dogadjajiGrid_MouseDoubleClick">
+                      BorderThickness="0" Margin="0,46,0.6,60" MouseDoubleClick="dogadjajiGrid_MouseDoubleClick" Keyboard.KeyDown="dogadjajiGrid_KeyDown">
             <ListView.View>
                 <GridView>
                     <GridViewColumn  Width="80" Header="Name" DisplayMemberBinding="{Binding Name}"/>

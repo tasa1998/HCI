@@ -157,7 +157,7 @@ namespace HCI_projekat
 
         private void chooseLabels_Click(object sender, RoutedEventArgs e)
         {
-            var win2 = new ChooseLabel();
+            var win2 = new ChooseLabel(eventt);
             win2.Show();
         }
     }

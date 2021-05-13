@@ -8,7 +8,7 @@
         Title="ChooseLabel" Height="450" Width="800">
     <Grid>
         <ListView FontSize="15" x:Name="etiketeGrid"
-                      
+                      Keyboard.KeyDown="etiketeGrid_KeyDown"
                       BorderThickness="0" Margin="0,0,0.6,60">
             <ListView.View>
                 <GridView>

@@ -21,6 +21,7 @@ namespace HCI_projekat.Model
         public string City { get; set; }    
         public double x { get; set; }
         public double y { get; set; }
+        public List<Label> labels { get; set; }
 
     }
 }

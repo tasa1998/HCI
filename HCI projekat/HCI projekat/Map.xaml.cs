@@ -25,7 +25,6 @@ namespace HCI_projekat
                 PropertyChanged(this, new PropertyChangedEventArgs(v));
             }
         }
-        private Event eventt;
         private ObservableCollection<Event> events;
 
         public ObservableCollection<Event> Events
@@ -91,7 +90,7 @@ namespace HCI_projekat
                 {
                     if(eventt.Mark != e1.Mark)
                     {
-                        if(e1.x !=-1 && e1.y != -1)
+                        if(e1.x !=0 && e1.y != 0)
                         {
                             if(Math.Abs(e1.x-d0.X)<= 30 && Math.Abs(e1.y - d0.Y) <= 30) {
                                 System.Windows.MessageBox.Show("Event with this location already exists!", "Event already exists");
