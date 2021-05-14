@@ -8,7 +8,7 @@
     "Icon": "file:///C:/Users/Nastasja/Desktop/Hci/HCI projekat/HCI projekat/Images/iconlab-itunes-itunes-glow-music-icon-png-clip-art.png",
     "Date": "2021-05-27T00:00:00",
     "Humanitarian": true,
-    "Price": 123,
+    "Price": 100000,
     "Country": "Tasa",
     "City": "Tasa",
     "x": 123.19999999999999,
@@ -35,7 +35,7 @@
     "Icon": "file:///C:/Users/Nastasja/Desktop/Hci/HCI projekat/HCI projekat/Images/neutral-p005-512.png",
     "Date": "2021-05-04T00:00:00",
     "Humanitarian": true,
-    "Price": 123,
+    "Price": 120000,
     "Country": "Proba",
     "City": "Proba",
     "x": 579.2,
@@ -51,7 +51,7 @@
     "Icon": "file:///C:/Users/Nastasja/Desktop/Hci/HCI projekat/HCI projekat/Images/neutral-p005-512.png",
     "Date": "2021-05-25T00:00:00",
     "Humanitarian": true,
-    "Price": 1111111,
+    "Price": 111111,
     "Country": "Probaaaaaaa",
     "City": "Probaaaaaaa",
     "x": 432.0,
@@ -63,5 +63,37 @@
         "Colorr": "#FFB8860B"
       }
     ]
+  },
+  {
+    "Mark": "Tasaa",
+    "Name": "Masaa",
+    "Type": "Sport",
+    "Description": "Masaa",
+    "Attendance": "5000-10000",
+    "Icon": "file:///C:/Users/Nastasja/Desktop/Hci/HCI projekat/HCI projekat/Images/R35a560436de1298fa8737e81355984bb.png",
+    "Date": "2021-05-12T00:00:00",
+    "Humanitarian": false,
+    "Price": 123456,
+    "Country": "Masaa",
+    "City": "Masaa",
+    "x": 524.8,
+    "y": 175.20000000000002,
+    "labels": null
+  },
+  {
+    "Mark": "Lalal",
+    "Name": "Lalal",
+    "Type": "Film",
+    "Description": "Lalal",
+    "Attendance": "5000-10000",
+    "Icon": "file:///C:/Users/Nastasja/Desktop/HCI github/HCI/HCI projekat/HCI projekat/Images/R35a560436de1298fa8737e81355984bb.png",
+    "Date": "2021-05-18T00:00:00",
+    "Humanitarian": false,
+    "Price": 133433,
+    "Country": "Lalal",
+    "City": "Lalal",
+    "x": 380.0,
+    "y": 232.0,
+    "labels": null
   }
 ]

@@ -10,13 +10,14 @@
     <Grid>
         <TextBox Name="SearchTextBox"
                  BorderThickness="0 2 0 2"
-                 Margin="3,0,2.6,379"
+                 Margin="3,0,129.6,372"
                  Tag="Pronadji dogadjaj" TextChanged="SearchTextBox_TextChanged"/>
         <ListView FontSize="15" x:Name="dogadjajiGrid"
                       
-                      BorderThickness="0" Margin="0,46,0.6,60" MouseDoubleClick="dogadjajiGrid_MouseDoubleClick" Keyboard.KeyDown="dogadjajiGrid_KeyDown">
+                      BorderThickness="0" Margin="0,53,0.6,55" MouseDoubleClick="dogadjajiGrid_MouseDoubleClick" Keyboard.KeyDown="dogadjajiGrid_KeyDown">
             <ListView.View>
                 <GridView>
+                    <GridViewColumn  Width="80" Header="Mark" DisplayMemberBinding="{Binding Mark}"/>
                     <GridViewColumn  Width="80" Header="Name" DisplayMemberBinding="{Binding Name}"/>
                     <GridViewColumn  Width="80" Header="Description" DisplayMemberBinding="{Binding Description}"/>
                     <GridViewColumn  Width="80" Header="Type" DisplayMemberBinding="{Binding Type}"/>
@@ -29,10 +30,17 @@
             </ListView.View>
 
         </ListView>
-        <Button Width="80" Height="30" 
+        <Button Width="120" Height="30" 
                             materialDesign:ButtonAssist.CornerRadius="10" BorderThickness="2" BorderBrush="#FF116FA4"
                             Background="#FF116FA4" Foreground="White" ToolTip="Cancel" Content="Back"
-                            HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,350,0,0" FontSize="13.5" Click="Button_Click"/>
+                            HorizontalAlignment="Center" VerticalAlignment="Center" Margin="150,350,0,0" FontSize="13.5" Click="Button_Click"/>
+        <Button Width="120" Height="30" 
+                            materialDesign:ButtonAssist.CornerRadius="10" BorderThickness="2" BorderBrush="#FF116FA4"
+                            Background="#FF116FA4" Foreground="White" ToolTip="Cancel" Content="Show price graph"
+                            HorizontalAlignment="Center" VerticalAlignment="Center" Margin="-150,350,0,0" FontSize="13.5" Click="Button_Click_3"/>
+        <Button Width="115" Height="48" 
+                            materialDesign:ButtonAssist.CornerRadius="10" BorderThickness="2" BorderBrush="#FF116FA4"
+                            Background="#FF116FA4" Foreground="White" Content="Search" HorizontalAlignment="Left" Margin="669,0,0,0" VerticalAlignment="Top" Click="Button_Click_2"/>
 
 
     </Grid>

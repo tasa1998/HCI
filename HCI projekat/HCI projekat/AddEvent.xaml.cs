@@ -1,5 +1,4 @@
-﻿using HCI_projekat.Controller;
-using HCI_projekat.Model;
+﻿using HCI_projekat.Model;
 using Microsoft.Win32;
 using System;
 using System.Collections.Generic;

@@ -46,8 +46,15 @@
     <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
+    <Reference Include="Syncfusion.Licensing, Version=19.1460.0.63, Culture=neutral, PublicKeyToken=632609b4d040f6b4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Syncfusion.Licensing.19.1.0.63\lib\net46\Syncfusion.Licensing.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfChart.WPF, Version=19.1460.0.63, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <HintPath>..\packages\Syncfusion.SfChart.WPF.19.1.0.63\lib\net46\Syncfusion.SfChart.WPF.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -115,6 +122,9 @@
     <Compile Include="EditType.xaml.cs">
       <DependentUpon>EditType.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Graph.xaml.cs">
+      <DependentUpon>Graph.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Map.xaml.cs">
       <DependentUpon>Map.xaml</DependentUpon>
     </Compile>
@@ -134,6 +144,7 @@
     <Compile Include="SuccessfullyAdded.xaml.cs">
       <DependentUpon>SuccessfullyAdded.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ViewModel.cs" />
     <Page Include="AddEvent.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -175,6 +186,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="EditType.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Graph.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

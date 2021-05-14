@@ -1,0 +1,18 @@
+C:\Users\Nastasja\Desktop\HCI github\HCI\HCI projekat\HCI projekat\obj\Release\HCI projekat.csprojAssemblyReference.cache
+C:\Users\Nastasja\Desktop\HCI github\HCI\HCI projekat\HCI projekat\obj\Release\AddEvent.g.cs
+C:\Users\Nastasja\Desktop\HCI github\HCI\HCI projekat\HCI projekat\obj\Release\AddLabel.g.cs
+C:\Users\Nastasja\Desktop\HCI github\HCI\HCI projekat\HCI projekat\obj\Release\AddType.g.cs
+C:\Users\Nastasja\Desktop\HCI github\HCI\HCI projekat\HCI projekat\obj\Release\AllEvents.g.cs
+C:\Users\Nastasja\Desktop\HCI github\HCI\HCI projekat\HCI projekat\obj\Release\AllLabels.g.cs
+C:\Users\Nastasja\Desktop\HCI github\HCI\HCI projekat\HCI projekat\obj\Release\AlreadyExist.g.cs
+C:\Users\Nastasja\Desktop\HCI github\HCI\HCI projekat\HCI projekat\obj\Release\ChooseLabel.g.cs
+C:\Users\Nastasja\Desktop\HCI github\HCI\HCI projekat\HCI projekat\obj\Release\EditEvent.g.cs
+C:\Users\Nastasja\Desktop\HCI github\HCI\HCI projekat\HCI projekat\obj\Release\EditLabel.g.cs
+C:\Users\Nastasja\Desktop\HCI github\HCI\HCI projekat\HCI projekat\obj\Release\AllTypes.g.cs
+C:\Users\Nastasja\Desktop\HCI github\HCI\HCI projekat\HCI projekat\obj\Release\EditType.g.cs
+C:\Users\Nastasja\Desktop\HCI github\HCI\HCI projekat\HCI projekat\obj\Release\MainWindow.g.cs
+C:\Users\Nastasja\Desktop\HCI github\HCI\HCI projekat\HCI projekat\obj\Release\Map.g.cs
+C:\Users\Nastasja\Desktop\HCI github\HCI\HCI projekat\HCI projekat\obj\Release\SuccessfullyAdded.g.cs
+C:\Users\Nastasja\Desktop\HCI github\HCI\HCI projekat\HCI projekat\obj\Release\App.g.cs
+C:\Users\Nastasja\Desktop\HCI github\HCI\HCI projekat\HCI projekat\obj\Release\HCI projekat_MarkupCompile.cache
+C:\Users\Nastasja\Desktop\HCI github\HCI\HCI projekat\HCI projekat\obj\Release\HCI projekat_MarkupCompile.lref

@@ -124,3 +124,9 @@ C:\Users\Nastasja\Desktop\HCI github\HCI\HCI projekat\HCI projekat\obj\Debug\Edi
 C:\Users\Nastasja\Desktop\HCI github\HCI\HCI projekat\HCI projekat\obj\Debug\EditType.baml
 C:\Users\Nastasja\Desktop\HCI github\HCI\HCI projekat\HCI projekat\obj\Debug\AllTypes.g.cs
 C:\Users\Nastasja\Desktop\HCI github\HCI\HCI projekat\HCI projekat\obj\Debug\AllTypes.baml
+C:\Users\Nastasja\Desktop\HCI github\HCI\HCI projekat\HCI projekat\obj\Debug\Graph.g.cs
+C:\Users\Nastasja\Desktop\HCI github\HCI\HCI projekat\HCI projekat\bin\Debug\Syncfusion.Licensing.dll
+C:\Users\Nastasja\Desktop\HCI github\HCI\HCI projekat\HCI projekat\bin\Debug\Syncfusion.SfChart.WPF.dll
+C:\Users\Nastasja\Desktop\HCI github\HCI\HCI projekat\HCI projekat\bin\Debug\Syncfusion.SfChart.WPF.xml
+C:\Users\Nastasja\Desktop\HCI github\HCI\HCI projekat\HCI projekat\obj\Debug\Graph.baml
+C:\Users\Nastasja\Desktop\HCI github\HCI\HCI projekat\HCI projekat\obj\Debug\GeneratedInternalTypeHelper.g.cs

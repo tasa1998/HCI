@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace HCI_projekat.Model
 {
@@ -10,7 +7,7 @@ namespace HCI_projekat.Model
     {
         public string Mark { get; set; }
         public string Name { get; set; }
-        public String Type { get; set; }
+        public string Type { get; set; }
         public string Description { get; set; }
         public string Attendance { get; set; }
         public string Icon { get; set; }

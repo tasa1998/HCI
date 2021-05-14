@@ -12,6 +12,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Microsoft.Win32;
+using System.Collections.ObjectModel;
+using System.ComponentModel;
 
 namespace HCI_projekat
 {
@@ -24,6 +27,10 @@ namespace HCI_projekat
         {
             InitializeComponent();
             WindowStartupLocation = System.Windows.WindowStartupLocation.CenterScreen;
+            ImageBrush myBrush = new ImageBrush();
+            myBrush.ImageSource =
+              new BitmapImage(new Uri("C:/Users/Nastasja/Desktop/HCI github/HCI/HCI projekat/HCI projekat/Images/light-blue-marble-background.2019.jpg", UriKind.Absolute));
+            this.Background = myBrush;
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -74,6 +81,11 @@ namespace HCI_projekat
             win2.Show();
             this.Close();
 
+        }
+
+        private void Button_Click_7(object sender, RoutedEventArgs e)
+        {
+            System.Windows.Forms.Help.ShowHelp(null, @"C:/Users/Nastasja/Desktop/Help/HCIHelp.chm");
         }
     }
 }

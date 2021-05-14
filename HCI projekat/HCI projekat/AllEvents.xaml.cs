@@ -2,8 +2,6 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -61,6 +59,7 @@ namespace HCI_projekat
                 || x.Country.ToLower().Contains(tbx.Text.ToLower()) 
                 || x.City.ToLower().Contains(tbx.Text.ToLower())
                 || x.Price.ToString().ToLower().Contains(tbx.Text.ToLower())
+                || x.Type.ToString().ToLower().Contains(tbx.Text.ToLower())
                 || x.Attendance.ToLower().Contains(tbx.Text.ToLower()));
                 dogadjajiGrid.ItemsSource = null;
                 dogadjajiGrid.ItemsSource = filteredList;
@@ -80,6 +79,49 @@ namespace HCI_projekat
                 win2.Show();
                 this.Close();
             }
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            List<Event> events = App.EventController.GetEvents();
+            string text = SearchTextBox.Text;
+            var filteredList = new List<Event>();
+            string[] split = text.Split(new char[] {' '}, StringSplitOptions.RemoveEmptyEntries);
+            dogadjajiGrid.ItemsSource = null;
+            foreach (Event eventt1 in events)
+            {
+                if(split.Length == 1)
+                {
+                    if(split[0].ToLower() == eventt1.Mark.ToLower())
+                    {
+                        filteredList.Add(eventt1);
+                        dogadjajiGrid.ItemsSource = filteredList;
+                    }
+                }
+                if (split.Length == 2)
+                {
+                    if (split[0].ToLower() == eventt1.Mark.ToLower() && split[1].ToLower() == eventt1.Name.ToLower())
+                    {
+                        filteredList.Add(eventt1);
+                        dogadjajiGrid.ItemsSource = filteredList;
+                    }
+                }
+                if (split.Length == 3)
+                {
+                    if (split[0].ToLower() == eventt1.Mark.ToLower() && split[1].ToLower() == eventt1.Name.ToLower() && split[2].ToLower() == eventt1.Type.ToLower())
+                    {
+                        filteredList.Add(eventt1);
+                        dogadjajiGrid.ItemsSource = filteredList;
+                    }
+                }
+            }
+        }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            var win2 = new Graph();
+            win2.Show();
+            this.Close();
         }
     }
 }
